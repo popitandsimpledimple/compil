@@ -1,0 +1,56 @@
+program
+   decls
+      vars
+         var
+            a
+            type
+               integer
+            no expression
+      vars
+         var
+            b
+            type
+               double
+            no expression
+      vars
+         var
+            c
+            type
+               char
+            no expression
+      vars
+         var
+            d
+            type
+               string
+            no expression
+   block
+      compounds statements
+         call
+            read
+               a
+         call
+            read
+               b
+         call
+            read
+               c
+         call
+            read
+               d
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ integer                   │ type                      │ integer                                 │
+ │ char                      │ type                      │ char                                    │
+ │ string                    │ type                      │ string                                  │
+ │ double                    │ type                      │ double                                  │
+ │ boolean                   │ type                      │ boolean                                 │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ without name              │ program name              │ no return type                          │
+ │ a                         │ var                       │ integer                                 │
+ │ b                         │ var                       │ double                                  │
+ │ c                         │ var                       │ char                                    │
+ │ d                         │ var                       │ string                                  │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────

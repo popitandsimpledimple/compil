@@ -1,0 +1,57 @@
+program
+   decls
+      function
+         f
+      type
+         integer
+      params
+         param
+            i
+            type
+               integer
+         param
+            c
+            type
+               double
+         param
+            b
+            type
+               boolean
+         param
+            s
+            type
+               string
+         block
+            compounds statements
+               :=
+                  call
+                     f
+                  10
+   block
+      compounds statements
+         call
+            f
+               1
+               1.1
+               true
+               'hi'
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ integer                   │ type                      │ integer                                 │
+ │ char                      │ type                      │ char                                    │
+ │ string                    │ type                      │ string                                  │
+ │ double                    │ type                      │ double                                  │
+ │ boolean                   │ type                      │ boolean                                 │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ without name              │ program name              │ no return type                          │
+ │ f                         │ function                  │ integer                                 │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ i                         │ param                     │ integer                                 │
+ │ c                         │ param                     │ double                                  │
+ │ b                         │ param                     │ boolean                                 │
+ │ s                         │ param                     │ string                                  │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────

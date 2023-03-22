@@ -1,0 +1,28 @@
+program
+   decls
+      function
+         a
+      type
+         integer
+      params
+         block
+            compounds statements
+   block
+      compounds statements
+         call
+            writeln
+               call
+                  a
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ integer                   │ type                      │ integer                                 │
+ │ char                      │ type                      │ char                                    │
+ │ string                    │ type                      │ string                                  │
+ │ double                    │ type                      │ double                                  │
+ │ boolean                   │ type                      │ boolean                                 │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ without name              │ program name              │ no return type                          │
+ │ a                         │ function                  │ integer                                 │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────

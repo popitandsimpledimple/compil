@@ -1,0 +1,7 @@
+procedure a();
+begin
+end;
+
+begin
+    writeln(a())
+end.

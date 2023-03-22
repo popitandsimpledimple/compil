@@ -1,0 +1,6 @@
+function f(i: Integer; c: Double; b: Boolean; s: string): integer;
+begin f() := 10; end;
+
+begin
+f(1, 1.1, True);
+end.

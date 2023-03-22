@@ -1,0 +1,4 @@
+var a: string;
+begin 
+read(123); 
+end.

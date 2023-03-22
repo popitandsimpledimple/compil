@@ -1,0 +1,7 @@
+begin
+    writeln(true);
+    writeln(1);
+    writeln(1.1);
+    writeln(#123);
+    writeln('123');
+end.

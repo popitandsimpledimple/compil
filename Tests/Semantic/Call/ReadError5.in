@@ -1,0 +1,5 @@
+var a: array[0..100] of integer;
+
+begin
+    read(a);
+end.

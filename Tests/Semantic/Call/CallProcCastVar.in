@@ -1,0 +1,7 @@
+var a : integer = 1;
+procedure f(var i: Double; c: Double);
+begin end;
+
+begin
+f(a, 1.1);
+end.

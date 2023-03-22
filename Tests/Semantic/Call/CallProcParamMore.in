@@ -1,0 +1,6 @@
+procedure f(i: Integer; c: Double; b: Boolean; s: string);
+begin end;
+
+begin
+f(1, 1.1, True, '123', '123');
+end.

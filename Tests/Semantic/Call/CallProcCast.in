@@ -1,0 +1,6 @@
+procedure f(i: Double; c: Double);
+begin end;
+
+begin
+f(1.1, 1.1);
+end.
