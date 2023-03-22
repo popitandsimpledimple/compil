@@ -1,0 +1,6 @@
+var a: double;
+var b: char;
+
+begin
+    write(a * b);
+end.
