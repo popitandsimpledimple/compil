@@ -1,0 +1,6 @@
+var a: string;
+var b: boolean;
+
+begin
+    write(a = b);
+end.
