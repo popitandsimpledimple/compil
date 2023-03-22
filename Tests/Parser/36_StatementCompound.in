@@ -1,0 +1,25 @@
+var a : integer;
+begin
+a := 1;
+begin
+a := 2;
+a := 3;
+begin
+begin
+begin
+a := 4;
+a := 5;
+begin
+a := 6;
+a := 7;
+begin
+begin
+a := 123;
+end;
+end;
+end;
+end;
+end;
+end;
+end;
+end.

@@ -1,0 +1,33 @@
+program
+   block
+      compounds statements
+         if
+            true
+            call
+               writeln
+                  '1'
+         else
+            empty
+         if
+            not
+               true
+            call
+               writeln
+                  '2'
+         else
+            empty
+         if
+            false
+            call
+               writeln
+                  '3'
+         else
+            empty
+         if
+            not
+               false
+            call
+               writeln
+                  '4'
+         else
+            empty

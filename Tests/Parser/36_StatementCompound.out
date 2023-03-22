@@ -1,0 +1,41 @@
+program
+   decls
+      vars
+         var
+            a
+            type
+               integer
+            no expression
+   block
+      compounds statements
+         :=
+            a
+            1
+         compounds statements
+            :=
+               a
+               2
+            :=
+               a
+               3
+            compounds statements
+               compounds statements
+                  compounds statements
+                     :=
+                        a
+                        4
+                     :=
+                        a
+                        5
+                     compounds statements
+                        :=
+                           a
+                           6
+                        :=
+                           a
+                           7
+                        compounds statements
+                           compounds statements
+                              :=
+                                 a
+                                 123

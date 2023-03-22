@@ -1,0 +1,9 @@
+var array1: array[0..100] of Integer;
+    array2: array[0..100, 0..100] of Integer;
+
+
+begin 
+writeln(array1[0]);
+writeln(array2[25, 25]);
+writeln(array2[50][50]);
+end.

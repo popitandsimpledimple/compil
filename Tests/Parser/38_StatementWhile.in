@@ -1,0 +1,16 @@
+var a: integer = 0;
+begin
+
+while a < 10 do 
+    begin
+    a := 1 + a;
+    writeln(a);
+    end;
+
+while ((a <> 6) and (a > 5)) do 
+    begin
+    a := 1 - a;
+    writeln(a);
+    end;
+
+end.

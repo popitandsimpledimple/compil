@@ -1,0 +1,10 @@
+begin
+    if (true) then
+        writeln('1');
+    if (not true) then
+        writeln('2');
+    if (false) then
+        writeln('3');
+    if (not false) then
+        writeln('4');
+end.

@@ -1,0 +1,40 @@
+program
+   decls
+      vars
+         var
+            a
+            type
+               integer
+               0
+   block
+      compounds statements
+         while
+            <
+               a
+               10
+            compounds statements
+               :=
+                  a
+                  +
+                     1
+                     a
+               call
+                  writeln
+                     a
+         while
+            and
+               <>
+                  a
+                  6
+               >
+                  a
+                  5
+            compounds statements
+               :=
+                  a
+                  -
+                     1
+                     a
+               call
+                  writeln
+                     a

@@ -1,0 +1,36 @@
+program
+   decls
+      vars
+         var
+            point
+               record
+               params
+                     x
+                     type
+                        integer
+                     y
+                     type
+                        integer
+            no expression
+   block
+      compounds statements
+         :=
+            record access
+               point
+               x
+            123
+         :=
+            record access
+               point
+               y
+            record access
+               point
+               x
+         call
+            writeln
+               record access
+                  point
+                  y
+               record access
+                  point
+                  x

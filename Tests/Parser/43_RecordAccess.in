@@ -1,0 +1,6 @@
+var point: record x, y: Integer; end;
+begin
+    point.x := 123;
+    point.y := point.x;
+    writeln(point.y, point.x);
+end.
