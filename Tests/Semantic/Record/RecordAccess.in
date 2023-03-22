@@ -1,0 +1,9 @@
+var rec: record rec: Integer; end;
+
+begin 
+writeln(rec.rec);
+writeln(rec.d);
+writeln(rec.b);
+writeln(rec.s);
+writeln(rec.r.field)
+end.

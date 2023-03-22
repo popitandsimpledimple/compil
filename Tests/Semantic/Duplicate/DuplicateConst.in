@@ -1,0 +1,2 @@
+const a = 10; a = 11;
+begin end.

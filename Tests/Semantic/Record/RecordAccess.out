@@ -1,0 +1,68 @@
+program
+   decls
+      vars
+         var
+            rec
+               record
+               params
+                     rec
+                     type
+                        integer
+                     d
+                     type
+                        double
+                     b
+                     type
+                        boolean
+                     s
+                     type
+                        string
+                     r
+                        record
+                        params
+                              field
+                              type
+                                 integer
+            no expression
+   block
+      compounds statements
+         call
+            writeln
+               record access
+                  rec
+                  rec
+         call
+            writeln
+               record access
+                  rec
+                  d
+         call
+            writeln
+               record access
+                  rec
+                  b
+         call
+            writeln
+               record access
+                  rec
+                  s
+         call
+            writeln
+               record access
+                  record access
+                     rec
+                     r
+                  field
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ integer                   │ type                      │ integer                                 │
+ │ char                      │ type                      │ char                                    │
+ │ string                    │ type                      │ string                                  │
+ │ double                    │ type                      │ double                                  │
+ │ boolean                   │ type                      │ boolean                                 │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ without name              │ program name              │ no return type                          │
+ │ rec                       │ var                       │ record                                  │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────

@@ -1,0 +1,5 @@
+var rec: record rec: Integer; end;
+
+begin 
+writeln(rec.rec.integer);
+end.

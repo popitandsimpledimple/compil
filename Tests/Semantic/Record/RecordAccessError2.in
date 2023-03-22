@@ -1,0 +1,5 @@
+var rec: integer;
+
+begin 
+writeln(rec.int);
+end.

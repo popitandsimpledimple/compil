@@ -1,0 +1,5 @@
+function a(): integer; begin a := 10; end;
+function a(): integer; begin a := 11; end;
+
+begin 
+end.

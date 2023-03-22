@@ -1,0 +1,4 @@
+procedure a(b: integer; c: integer; c: integer); 
+begin 
+end;
+begin end.
