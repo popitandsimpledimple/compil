@@ -1,0 +1,3 @@
+var point: record
+end;
+begin end.

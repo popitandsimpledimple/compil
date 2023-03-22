@@ -1,0 +1,12 @@
+function abc(var a: Double; const b: Integer; c: String): Integer;
+begin end;
+function abc(): Integer;
+begin end;
+
+function function1(): Integer;
+begin 
+    Writeln('Hello world');
+end;
+
+begin
+end.

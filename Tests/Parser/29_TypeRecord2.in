@@ -1,0 +1,5 @@
+var rec: record 
+    asd: double;
+    qwer: integer;
+end;
+begin end.

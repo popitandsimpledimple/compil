@@ -1,0 +1,34 @@
+program
+   main
+   decls
+      vars
+         var
+            e
+            type
+               double
+               +
+                  1.1
+                  /
+                     1.2
+                     1.4
+         var
+            x
+            type
+               integer
+               +
+                  1
+                  *
+                     2
+                     3
+         var
+            y
+            type
+               string
+               '1'
+         var
+            z
+            type
+               char
+               #123
+   block
+      compounds statements

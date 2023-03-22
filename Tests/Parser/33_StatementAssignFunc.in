@@ -1,0 +1,12 @@
+var a : integer;
+
+function func(): integer;
+var fun : integer;
+begin
+    func := 10;
+end;
+
+begin
+    a := func();
+    WriteLn(a);
+end.

@@ -1,0 +1,9 @@
+function func(): integer;
+var fun : integer;
+begin
+    func := 10;
+end;
+
+begin
+    func();
+end.

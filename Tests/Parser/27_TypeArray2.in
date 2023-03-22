@@ -1,0 +1,5 @@
+program main;
+var a: array[] of integer;
+    b: array[] of string;
+    c: array[] of double;
+begin end.

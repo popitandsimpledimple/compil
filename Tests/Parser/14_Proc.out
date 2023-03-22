@@ -1,0 +1,46 @@
+program
+   decls
+      procedure
+         abc
+      params
+         var
+            a
+            type
+               double
+         const
+            b
+            type
+               integer
+         param
+            c
+            type
+               string
+         block
+            compounds statements
+      procedure
+         asd
+      params
+         block
+            compounds statements
+      procedure
+         procedure2
+      params
+         decls
+            vars
+               var
+                  z
+                  type
+                     integer
+                  no expression
+               var
+                  x
+                  type
+                     integer
+                     123
+         block
+            compounds statements
+               call
+                  writeln
+                     'hello, world'
+   block
+      compounds statements

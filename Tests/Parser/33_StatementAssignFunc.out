@@ -1,0 +1,34 @@
+program
+   decls
+      vars
+         var
+            a
+            type
+               integer
+            no expression
+      function
+         func
+      type
+         integer
+      params
+         decls
+            vars
+               var
+                  fun
+                  type
+                     integer
+                  no expression
+         block
+            compounds statements
+               :=
+                  func
+                  10
+   block
+      compounds statements
+         :=
+            a
+            call
+               func
+         call
+            writeln
+               a

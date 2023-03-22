@@ -1,0 +1,40 @@
+program
+   decls
+      function
+         abc
+      type
+         integer
+      params
+         var
+            a
+            type
+               double
+         const
+            b
+            type
+               integer
+         param
+            c
+            type
+               string
+         block
+            compounds statements
+      function
+         abc
+      type
+         integer
+      params
+         block
+            compounds statements
+      function
+         function1
+      type
+         integer
+      params
+         block
+            compounds statements
+               call
+                  writeln
+                     'hello world'
+   block
+      compounds statements

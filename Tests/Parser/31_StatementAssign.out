@@ -1,0 +1,25 @@
+program
+   decls
+      vars
+         var
+            a
+            type
+               integer
+            no expression
+   block
+      compounds statements
+         :=
+            a
+            1
+         +=
+            a
+            2
+         -=
+            a
+            3
+         *=
+            a
+            4
+         /=
+            a
+            5

@@ -1,0 +1,6 @@
+program main;
+type 
+    int = integer;
+    MyString = string;
+    MyDouble = double;
+begin end.

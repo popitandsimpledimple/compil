@@ -1,0 +1,6 @@
+program main;
+var
+    e,w: double = 1.1;
+    x,u: integer = 1;
+    y,m: string = '1';
+begin end.

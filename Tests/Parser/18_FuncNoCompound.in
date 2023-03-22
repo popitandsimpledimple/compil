@@ -1,0 +1,4 @@
+function abc(var a: Double; const b: Integer; c: String): Integer;
+
+begin
+end.

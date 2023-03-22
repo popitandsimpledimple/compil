@@ -1,0 +1,31 @@
+program
+   block
+      compounds statements
+         call
+            writeln
+               *
+                  div
+                     a
+                     100
+                  3
+         call
+            writeln
+               /
+                  mod
+                     a
+                     100
+                  3
+         call
+            writeln
+               +
+                  shr
+                     a
+                     100
+                  3
+         call
+            writeln
+               -
+                  shl
+                     a
+                     100
+                  3

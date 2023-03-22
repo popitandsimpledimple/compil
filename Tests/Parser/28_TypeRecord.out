@@ -1,0 +1,10 @@
+program
+   decls
+      vars
+         var
+            point
+               record
+               params
+            no expression
+   block
+      compounds statements

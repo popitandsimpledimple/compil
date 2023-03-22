@@ -1,0 +1,4 @@
+program main;
+const b : integer = 5
+begin
+end.

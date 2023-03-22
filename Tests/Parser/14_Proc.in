@@ -1,0 +1,16 @@
+procedure abc(var a: Double; const b: Integer; c: String);
+begin
+end;
+procedure asd();
+begin
+end;
+
+procedure procedure2();
+var z: Integer; x: Integer = 123;
+begin
+    writeln('Hello, world');
+end;
+
+
+begin
+end.

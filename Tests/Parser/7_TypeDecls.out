@@ -1,0 +1,18 @@
+program
+   main
+   decls
+      decls types
+         decl type
+            int
+            type
+               integer
+         decl type
+            mystring
+            type
+               string
+         decl type
+            mydouble
+            type
+               double
+   block
+      compounds statements

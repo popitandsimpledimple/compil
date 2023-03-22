@@ -1,0 +1,16 @@
+program
+   decls
+      vars
+         var
+            a
+            type
+               integer
+            no expression
+   block
+      compounds statements
+         call
+            readln
+               a
+         call
+            read
+               b

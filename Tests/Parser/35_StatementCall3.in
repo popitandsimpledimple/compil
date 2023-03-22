@@ -1,0 +1,6 @@
+begin	
+	writeln(a div 100 * 3);
+	writeln(a mod 100 / 3);
+	writeln(a shr 100 + 3);
+    writeln(a shl 100 - 3);
+end.

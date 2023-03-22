@@ -1,0 +1,21 @@
+program
+   main
+   decls
+      vars
+         var
+            e
+            type
+               double
+            no expression
+         var
+            x
+            type
+               integer
+            no expression
+         var
+            y
+            type
+               string
+            no expression
+   block
+      compounds statements

@@ -1,0 +1,20 @@
+program
+   main
+   decls
+      consts
+         const
+            a
+            no type
+            5
+         const
+            b
+            type
+               string
+            'hello world'
+         const
+            c
+            type
+               double
+            12.12
+   block
+      compounds statements

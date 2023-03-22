@@ -1,0 +1,4 @@
+begin
+    Writeln(1);;;;
+    Write(2)
+end.

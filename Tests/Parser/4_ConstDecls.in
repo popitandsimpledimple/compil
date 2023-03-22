@@ -1,0 +1,7 @@
+program main;
+const 
+    a = 5;
+    b:string = 'hello world';
+    c:double = 12.12;
+begin
+end.

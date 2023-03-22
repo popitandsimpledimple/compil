@@ -1,0 +1,16 @@
+program
+   decls
+      vars
+         var
+            rec
+               record
+               params
+                     asd
+                     type
+                        double
+                     qwer
+                     type
+                        integer
+            no expression
+   block
+      compounds statements

@@ -1,0 +1,4 @@
+program main;
+type int = integer
+begin
+end.

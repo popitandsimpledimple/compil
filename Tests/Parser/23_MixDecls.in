@@ -1,0 +1,13 @@
+program main;
+var
+    e,w: double;
+    x,u: integer;
+    y,m: string;
+const 
+    a = 5;
+    b:string = 'hello world';
+type 
+    int = integer;
+    MyString = string;
+begin
+end.

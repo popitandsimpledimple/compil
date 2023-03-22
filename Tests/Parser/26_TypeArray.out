@@ -1,0 +1,51 @@
+program
+   main
+   decls
+      vars
+         var
+            a
+               array
+                  range
+                     ..
+                        0
+                        1
+            type
+               integer
+            no expression
+         var
+            b
+               array
+                  range
+                     ..
+                        0
+                        1
+               array
+                  range
+                     ..
+                        a
+                        3
+            type
+               string
+            no expression
+         var
+            c
+               array
+                  range
+                     ..
+                        0
+                        1
+               array
+                  range
+                     ..
+                        a
+                        3
+               array
+                  range
+                     ..
+                        b
+                        c
+            type
+               double
+            no expression
+   block
+      compounds statements

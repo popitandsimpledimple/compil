@@ -1,0 +1,9 @@
+program
+   block
+      compounds statements
+         call
+            writeln
+               1
+         call
+            write
+               2

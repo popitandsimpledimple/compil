@@ -1,0 +1,6 @@
+program main;
+var
+    e,w: double;
+    x,u: integer;
+    y,m: string;
+begin end.
