@@ -1,0 +1,65 @@
+<<bnf rules>>
+[X]    -- zero or one entry of X
+{X}    -- zero and more entries of X
+(X|Y)   -- group: or X, or Y
+(X Y)   -- group: X Y
+"XYZ"   -- terminal sign XYZ
+
+<<program>>
+<program> ::= ["program" <id> ";"] <block>
+<block> ::= {<declarations>} <compoundStatement>
+
+<<declarations>>
+<declarations> ::= <constDeclarations> | <varDeclarations> | <typeDeclarations> | <functionDeclaration> | <procedureDeclaration>
+<varDeclarations> ::= "var" <varDeclaration> {<varDeclaration>}
+<varDeclaration> ::= <id> {"," <id>} ":" <type> ";" | <id> ":" <type> [ "=" <exp> ] ";"
+
+<constDeclarations> ::= "const" <oneConstDeclaration> {<oneConstDeclaration>}
+<constDeclaration> ::= <id> [":" <type>] "=" <exp> ";"
+
+<typeDeclarations> ::= "type" <typeDeclaration> {<typeDeclaration>}
+<typeDeclaration> ::= <id> "=" <type> ";"
+
+<functionDeclaration> ::= "function" <id> "(" <parameters> ")" ":" <type> ";" {<constDeclarations> | <varDeclarations> | <typeDeclarations>} <compoundStatement> ";"
+
+<procedureDeclaration> ::= "procedure" <id> "(" <parameters> ")" ";" {<constDeclarations> | <varDeclarations> | <typeDeclarations>} <compoundStatement> ";"
+
+<parameters> ::= <parameter> {";" <parameter>}
+<parameter> ::= ["var" | "const"] <idList> ":" <type>
+
+<<statements>>
+<statementSequence> ::= {";"} <statement> {";" <statement>} {";"}
+<statement> ::= <simpleStatement> | <structuredStatement>
+<simpleStatement> ::= <assignmentStatement> | <functionCallStatement>
+<functionCallStatement> ::= <id> ["(" <idList> ")"]
+<structuredStatement> ::= <compoundStatement> | <forStatement> | <whileStatement> | <ifStatement>
+<compoundStatement> ::= "begin" <statementSequence> "end"
+<assignmentStatement> ::= <varRef> (":=" | "+=" | "-=" | "*=" | "/=") <expression>
+
+<whileStatement> ::= "while" <expression> "do" <statement>
+<forStatement> ::= "for" <id> ":=" <expression> ("to" | "downto") <expression> "do" <statement>
+<ifStatement> ::= "if" <expression> "then" <statement> ["else" <statement>]
+
+<<expressions>>
+<expression> ::= <simpleExpression> {("=" | "<" | "<>" | "<=" | ">" | ">=") <simpleExpression>}
+<simpleExpression> ::= <term> {("+" | "-" | "or" | "xor") <term>}
+<term> ::= <simpleTerm> {("*" | "/" | "div" | "mod" | "and" | "shr" | "shl") <simpleTerm>}
+<simpleTerm> ::= {"+" | "-" | "not" | "or"} <factor>
+<factor> ::= "(" <expression> ")" | <string> | <number> | <boolean> | <varRef>
+<varRef> ::= <id> { <arrayAccess> | <recordAccess> | <functionCall> }
+<arrayAccess> ::= "[" <expressionList> "]"
+<recordAccess> ::= "." <id>
+<functionCall> ::= <id> "(" [ <expressionList> ] ")"
+
+<<type>>
+<type> ::=  <primitiveType> | <arrayType> | <recordType>
+<primitiveType> ::= <id> | "string"
+<arrayType> ::= "array" "[" <ranges> "]" "of" <type>
+<ranges> ::= <range> {"," <range>}
+<range> ::= <expression> ".." <expression>
+<recordType> ::= "record" [ <fieldsList> ] "end"
+<fieldsList> ::= <fieldSection> {";" <fieldSection>}
+<fieldSection> ::= <idList> ":" <type>
+
+<expressionList> ::= <expression> {"," <expression>}
+<idList> ::= <id> {"," <id>}
