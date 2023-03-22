@@ -1,0 +1,35 @@
+program
+   decls
+      vars
+         var
+            a
+            type
+               integer
+            no expression
+      vars
+         var
+            b
+            type
+               double
+            no expression
+   block
+      compounds statements
+         call
+            write
+               shl
+                  a
+                  b
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ integer                   │ type                      │ integer                                 │
+ │ char                      │ type                      │ char                                    │
+ │ string                    │ type                      │ string                                  │
+ │ double                    │ type                      │ double                                  │
+ │ boolean                   │ type                      │ boolean                                 │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ without name              │ program name              │ no return type                          │
+ │ a                         │ var                       │ integer                                 │
+ │ b                         │ var                       │ double                                  │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
