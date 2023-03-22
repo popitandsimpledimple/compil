@@ -1,0 +1,7 @@
+var a: array[5..20] of Integer;
+    b: array[7..30] of array[0..40] of integer;
+    c: array[5..50, 0..60, 0..70] of integer;
+
+begin 
+write(a[4], b[10][10], c[10+10][20*2][12+3*2]); 
+end.

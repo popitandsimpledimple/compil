@@ -1,0 +1,90 @@
+program
+   decls
+      vars
+         var
+            a
+               array
+                  range
+                     ..
+                        5
+                        20
+            type
+               integer
+            no expression
+         var
+            b
+               array
+                  range
+                     ..
+                        7
+                        30
+               array
+                  range
+                     ..
+                        0
+                        40
+            type
+               integer
+            no expression
+         var
+            c
+               array
+                  range
+                     ..
+                        5
+                        50
+               array
+                  range
+                     ..
+                        0
+                        60
+               array
+                  range
+                     ..
+                        0
+                        70
+            type
+               integer
+            no expression
+   block
+      compounds statements
+         call
+            write
+               array access
+                  a
+                  4
+               array access
+                  array access
+                     b
+                     10
+                  10
+               array access
+                  array access
+                     array access
+                        c
+                        +
+                           10
+                           10
+                     *
+                        20
+                        2
+                  +
+                     12
+                     *
+                        3
+                        2
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ integer                   │ type                      │ integer                                 │
+ │ char                      │ type                      │ char                                    │
+ │ string                    │ type                      │ string                                  │
+ │ double                    │ type                      │ double                                  │
+ │ boolean                   │ type                      │ boolean                                 │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ without name              │ program name              │ no return type                          │
+ │ a                         │ var                       │ array                                   │
+ │ b                         │ var                       │ array                                   │
+ │ c                         │ var                       │ array                                   │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────

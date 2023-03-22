@@ -1,0 +1,5 @@
+var a: Integer;
+
+begin 
+write(a[100]); 
+end.
