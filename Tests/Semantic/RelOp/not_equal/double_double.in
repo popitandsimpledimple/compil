@@ -1,0 +1,6 @@
+var a: double;
+var b: double;
+
+begin
+    write(a <> b);
+end.

@@ -1,0 +1,6 @@
+var a: char;
+var b: boolean;
+
+begin
+    write(a >= b);
+end.
