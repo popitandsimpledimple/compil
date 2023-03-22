@@ -1,0 +1,9 @@
+const a = 1;
+const b = 'some string';
+const c = #123;
+const d = 1.1;
+const f = false;
+const t = true;
+
+begin
+end.

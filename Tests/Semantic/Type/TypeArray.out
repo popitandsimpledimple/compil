@@ -1,0 +1,27 @@
+program
+   decls
+      decls types
+         decl type
+            arr
+               array
+                  range
+                     ..
+                        0
+                        100
+            type
+               integer
+   block
+      compounds statements
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ integer                   │ type                      │ integer                                 │
+ │ char                      │ type                      │ char                                    │
+ │ string                    │ type                      │ string                                  │
+ │ double                    │ type                      │ double                                  │
+ │ boolean                   │ type                      │ boolean                                 │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ without name              │ program name              │ no return type                          │
+ │ arr                       │ alias                     │ array                                   │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────

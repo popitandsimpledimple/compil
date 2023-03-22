@@ -1,0 +1,9 @@
+var a : integer = 1;
+var b : string = 'some string';
+var c : char = #123;
+var d1 : double = 123.123;
+var f : boolean = false;
+var t : boolean = true;
+
+begin
+end.

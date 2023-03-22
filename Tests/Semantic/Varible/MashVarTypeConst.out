@@ -1,0 +1,182 @@
+program
+   main
+   decls
+      vars
+         var
+            e
+            w
+            type
+               double
+            no expression
+         var
+            x
+            u
+            type
+               integer
+            no expression
+         var
+            y
+            m
+            type
+               string
+            no expression
+      consts
+         const
+            a
+               integer
+            5
+         const
+            b
+            type
+               string
+            'hello world'
+      decls types
+         decl type
+            int
+            type
+               integer
+         decl type
+            mystring
+            type
+               string
+      vars
+         var
+            pp
+               array
+                  range
+                     ..
+                        5
+                        20
+            type
+               integer
+            no expression
+         var
+            oo
+               array
+                  range
+                     ..
+                        7
+                        30
+               array
+                  range
+                     ..
+                        0
+                        40
+            type
+               integer
+            no expression
+         var
+            ii
+               array
+                  range
+                     ..
+                        5
+                        50
+               array
+                  range
+                     ..
+                        0
+                        60
+               array
+                  range
+                     ..
+                        0
+                        70
+            type
+               integer
+            no expression
+      vars
+         var
+            rec
+               record
+               params
+                     aaa
+                     type
+                        integer
+                     dddd
+                     type
+                        double
+                     bbbb
+                     type
+                        boolean
+                     ssss
+                     type
+                        string
+                     rrrr
+                        record
+                        params
+                              field
+                              type
+                                 integer
+            no expression
+   block
+      compounds statements
+         call
+            write
+               array access
+                  pp
+                  4
+               array access
+                  array access
+                     oo
+                     10
+                  10
+               array access
+                  array access
+                     array access
+                        ii
+                        +
+                           10
+                           10
+                     *
+                        20
+                        2
+                  +
+                     12
+                     *
+                        3
+                        2
+         call
+            write
+               record access
+                  rec
+                  dddd
+               record access
+                  rec
+                  bbbb
+               record access
+                  rec
+                  ssss
+         call
+            read
+               record access
+                  record access
+                     rec
+                     rrrr
+                  field
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ integer                   │ type                      │ integer                                 │
+ │ char                      │ type                      │ char                                    │
+ │ string                    │ type                      │ string                                  │
+ │ double                    │ type                      │ double                                  │
+ │ boolean                   │ type                      │ boolean                                 │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ main                      │ program name              │ no return type                          │
+ │ e                         │ var                       │ double                                  │
+ │ w                         │ var                       │ double                                  │
+ │ x                         │ var                       │ integer                                 │
+ │ u                         │ var                       │ integer                                 │
+ │ y                         │ var                       │ string                                  │
+ │ m                         │ var                       │ string                                  │
+ │ a                         │ const                     │ integer                                 │
+ │ b                         │ const                     │ string                                  │
+ │ int                       │ alias                     │ integer                                 │
+ │ mystring                  │ alias                     │ string                                  │
+ │ pp                        │ var                       │ array                                   │
+ │ oo                        │ var                       │ array                                   │
+ │ ii                        │ var                       │ array                                   │
+ │ rec                       │ var                       │ record                                  │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────

@@ -1,0 +1,52 @@
+program
+   decls
+      consts
+         const
+            a
+               integer
+            1
+      consts
+         const
+            b
+               string
+            'some string'
+      consts
+         const
+            c
+               char
+            #123
+      consts
+         const
+            d
+               double
+            1.1
+      consts
+         const
+            f
+               boolean
+            false
+      consts
+         const
+            t
+               boolean
+            true
+   block
+      compounds statements
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ integer                   │ type                      │ integer                                 │
+ │ char                      │ type                      │ char                                    │
+ │ string                    │ type                      │ string                                  │
+ │ double                    │ type                      │ double                                  │
+ │ boolean                   │ type                      │ boolean                                 │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ without name              │ program name              │ no return type                          │
+ │ a                         │ const                     │ integer                                 │
+ │ b                         │ const                     │ string                                  │
+ │ c                         │ const                     │ char                                    │
+ │ d                         │ const                     │ double                                  │
+ │ f                         │ const                     │ boolean                                 │
+ │ t                         │ const                     │ boolean                                 │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────

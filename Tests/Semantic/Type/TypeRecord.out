@@ -1,0 +1,28 @@
+program
+   decls
+      decls types
+         decl type
+            point
+               record
+               params
+                     x
+                     type
+                        integer
+                     y
+                     type
+                        integer
+   block
+      compounds statements
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ integer                   │ type                      │ integer                                 │
+ │ char                      │ type                      │ char                                    │
+ │ string                    │ type                      │ string                                  │
+ │ double                    │ type                      │ double                                  │
+ │ boolean                   │ type                      │ boolean                                 │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ without name              │ program name              │ no return type                          │
+ │ point                     │ alias                     │ record                                  │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────

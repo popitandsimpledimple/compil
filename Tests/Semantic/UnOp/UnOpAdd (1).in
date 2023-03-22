@@ -1,0 +1,5 @@
+var a: boolean;
+
+begin
+    write(+a);
+end.

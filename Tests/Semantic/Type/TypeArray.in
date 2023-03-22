@@ -1,0 +1,2 @@
+type arr = array[0..100] of integer;
+begin end.

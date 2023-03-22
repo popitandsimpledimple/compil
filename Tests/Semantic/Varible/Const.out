@@ -1,0 +1,65 @@
+program
+   decls
+      consts
+         const
+            a
+            type
+               integer
+            1
+      consts
+         const
+            b
+            type
+               string
+            'some string'
+      consts
+         const
+            b1
+            type
+               string
+            's'
+      consts
+         const
+            c
+            type
+               char
+            #123
+      consts
+         const
+            d
+            type
+               double
+            1.1
+      consts
+         const
+            f
+            type
+               boolean
+            false
+      consts
+         const
+            t
+            type
+               boolean
+            true
+   block
+      compounds statements
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ integer                   │ type                      │ integer                                 │
+ │ char                      │ type                      │ char                                    │
+ │ string                    │ type                      │ string                                  │
+ │ double                    │ type                      │ double                                  │
+ │ boolean                   │ type                      │ boolean                                 │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+
+ ───────────────────────────────────────────────────────────────────────────────────────────────────
+ │ without name              │ program name              │ no return type                          │
+ │ a                         │ const                     │ integer                                 │
+ │ b                         │ const                     │ string                                  │
+ │ b1                        │ const                     │ string                                  │
+ │ c                         │ const                     │ char                                    │
+ │ d                         │ const                     │ double                                  │
+ │ f                         │ const                     │ boolean                                 │
+ │ t                         │ const                     │ boolean                                 │
+ ───────────────────────────────────────────────────────────────────────────────────────────────────

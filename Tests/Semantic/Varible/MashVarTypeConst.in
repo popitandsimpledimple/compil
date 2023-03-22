@@ -1,0 +1,28 @@
+program main;
+var
+    e,w: double;
+    x,u: integer;
+    y,m: string;
+const 
+    a = 5;
+    b:string = 'hello world';
+type 
+    int = integer;
+    MyString = string;
+
+var pp: array[5..20] of Integer;
+    oo: array[7..30] of array[0..40] of integer;
+    ii: array[5..50, 0..60, 0..70] of integer;
+    var rec: record aaa: Integer; dddd: Double; bbbb: Boolean; ssss: String; rrrr: record field: Integer; end; end;
+
+begin 
+write(pp[4], oo[10][10], ii[10+10][20*2][12+3*2]);
+
+write(
+rec.dddd, 
+rec.bbbb, 
+rec.ssss);
+
+read(
+rec.rrrr.field);
+end.

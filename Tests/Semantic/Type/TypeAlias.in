@@ -1,0 +1,4 @@
+type int = Integer;
+const a: int = 1;
+var b: int;
+begin end.
