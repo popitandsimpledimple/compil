@@ -1,0 +1,6 @@
+var a: boolean;
+var b: boolean;
+
+begin
+    write(a and b);
+end.

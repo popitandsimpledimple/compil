@@ -1,0 +1,6 @@
+var a: integer;
+var b: double;
+
+begin
+    write(a mod b);
+end.
