@@ -1,0 +1,6 @@
+var a: char;
+var b: char;
+
+begin
+    write(a + b);
+end.

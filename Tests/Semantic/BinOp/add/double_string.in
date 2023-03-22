@@ -1,0 +1,6 @@
+var a: double;
+var b: string;
+
+begin
+    write(a + b);
+end.
