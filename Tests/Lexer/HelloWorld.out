@@ -1,0 +1,11 @@
+1	1	Keyword	PROGRAM	Program
+1	9	Identifier	main	main
+1	13	Separator	Semicolom	;
+3	1	Keyword	BEGIN	Begin
+4	2	Keyword	WRITELN	WriteLn
+4	9	Separator	Lparen	(
+4	10	String	Hello, world	'Hello, world'
+4	24	Separator	Rparen	)
+4	25	Separator	Semicolom	;
+5	1	Keyword	END	End
+5	4	Separator	Semicolom	;

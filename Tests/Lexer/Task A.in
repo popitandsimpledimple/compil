@@ -1,0 +1,59 @@
+﻿Program main;
+var input : String;
+sign : Boolean;
+
+function toDec(inp : string; base : byte; sign : Boolean) : Int64;
+const table : string = '0123456789ABCDEF';
+var   answer : Int64;
+      p, i : Longint;
+begin
+    answer := 0;
+    if (inp = '') then
+        begin
+            toDec := 1;
+            exit
+        end;
+    for i:= 1 to length(inp) do
+        begin
+        p := pos(inp[i], table);
+        if p in [1..base] then
+            begin
+                answer := (answer * base) + (p - 1);
+                if (sign) then answer:= answer * -1;
+                if ((answer > 2147483647) or (answer < -2147483647)) then 
+                    begin
+                        toDec:= 2;
+                        exit;
+                    end;
+                if (sign) then answer:= answer * -1;
+            end
+            else
+            begin
+                toDec:= 1;
+                exit;
+            end;
+        end;
+    WriteLn(0);
+    if (sign) then
+      toDec:= answer * -1
+    else
+      toDec:= answer;
+end;
+
+begin
+    Read(input);
+    input:= UpCase(input);
+    sign := False;
+    if (input[1] = '-') then
+        begin
+            Delete(input,1,1);
+           sign := True; 
+        end;
+    case input[1] of
+    '%': begin Delete(input,1,1); Write(toDec(input, 2, sign)); end;
+    '$': begin Delete(input,1,1); Write(toDec(input, 16, sign)); end;
+    '&': begin Delete(input,1,1); Write(toDec(input, 8, sign)); end;
+    else
+        Write(toDec(input, 10, sign));
+    end;
+end.
