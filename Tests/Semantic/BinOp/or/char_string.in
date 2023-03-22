@@ -1,0 +1,6 @@
+var a: char;
+var b: string;
+
+begin
+    write(a or b);
+end.
